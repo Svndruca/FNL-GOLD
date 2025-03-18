@@ -1,0 +1,56 @@
+.footer {
+    position: fixed;  /* O absolute si prefieres */
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333; /* Ajusta el color según tu diseño */
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+  
+    .footer__content {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+  
+    .footer__social a {
+      color: white;
+      font-size: 24px;
+      margin: 0 10px;
+    }
+  
+    .media__card {
+      background: #333;
+      padding: 10px;
+      border-radius: 8px;
+      text-align: center;
+    }
+  
+    .audio-player {
+      margin-top: 20px;
+    }
+  
+    button {
+      background:#ecdf63;
+      border: none;
+      padding: 5px 10px;
+      cursor: pointer;
+      color: black;
+      font-weight: bold;
+      margin: 5px;
+      border-radius: 5px;
+  
+      &:hover {
+        background: #1ed760;
+      }
+    }
+    .song__title {
+      font-size: 1.2rem;
+      font-weight: bold;
+      margin-bottom: 10px;
+      text-align: center;
+    }
+  }
+  
